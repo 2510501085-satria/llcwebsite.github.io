@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLC - Language Learning Center</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom right, #ffcc00, #ff8800);
+            color: #333;
+            scroll-behavior: smooth;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        header {
+            background-color: #ffb300;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            animation: slideDown 1.5s ease;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        header img {
+            width: 90px;
+            vertical-align: middle;
+            border-radius: 12px;
+            animation: pulse 2s infinite alternate;
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+
+        nav {
+            background: #ff9900;
+            display: flex;
+            justify-content: center;
+            padding: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            animation: fadeIn 2s ease;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            color: #fffacd;
+            transform: scale(1.1);
+        }
+
+        section {
+            background-color: white;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 12px;
+            width: 85%;
+            max-width: 900px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            animation: fadeIn 1.5s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #ff6600;
+            border-bottom: 3px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 4px;
+        }
+
+        footer {
+            background: #ff8800;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            animation: fadeIn 2s ease;
+        }
+
+        .contact-box {
+            background: #fff3cd;
+            border-left: 6px solid #ffb300;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .phone {
+            color: #ff6600;
+            font-weight: bold;
+        }
+
+        .founder {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .founder img {
+            width: 130px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .founder-info h3 {
+            margin: 5px 0;
+            color: #ff6600;
+        }
+
+        .founder-info a {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #ff9900;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .founder-info a:hover {
+            background-color: #ff6600;
+            transform: scale(1.05);
+        }
+
+        @media screen and (max-width: 600px) {
+            .founder {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        ul li {
+            margin: 6px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="4d8a6394-3037-4819-a689-c7ebdc5a6f19.jpg" alt="LLC Logo">
+        <h1>Language Learning Center (LLC)</h1>
+        <p><em>A Special English Educational Institution for Specific Purposes</em></p>
+    </header>
+
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#history">History</a>
+        <a href="#vision">Vision & Mission</a>
+        <a href="#programs">Programs</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#accreditation">Accreditation & Publications</a>
+        <a href="#founder">Founder</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>Language Learning Center (LLC) is a professional English language institution dedicated to delivering high-quality education for children, teenagers, and adults. Our programs are designed to build linguistic competence, fluency, and confidence through interactive and innovative methods. With more than two decades of experience, LLC has become a leading language institution trusted by individuals, schools, and corporations.</p>
+        <p>Our instructors are certified professionals with international exposure, providing personalized guidance to ensure every learner reaches their goals — whether for academic success, career development, or global communication.</p>
+    </section>
+
+    <section id="history">
+        <h2>History</h2>
+        <p>Founded in 1999 by <strong>Moch. Idi Amin, S.S., M.Pd., Dipl.TEFL</strong>, LLC began as a small English training class focused on practical communication. Over the years, LLC expanded its reach by introducing specialized programs for universities, healthcare professionals, and business sectors.</p>
+        <p>By consistently maintaining international standards, LLC has collaborated with global educational institutions and achieved recognition as one of Indonesia’s most reputable English training centers. Our graduates have successfully passed TOEFL, TOEIC, IELTS, and NCLEX language requirements.</p>
+    </section>
+
+    <section id="vision">
+        <h2>Vision & Mission</h2>
+        <ul>
+            <li><strong>Vision:</strong> To become a globally recognized English language institution that empowers learners with knowledge, confidence, and international communication skills.</li>
+            <li><strong>Mission:</strong> 
+                <ul>
+                    <li>Deliver internationally standardized English education.</li>
+                    <li>Encourage creative, communicative, and confident learners.</li>
+                    <li>Support academic, business, and professional excellence through language mastery.</li>
+                    <li>Build partnerships with educational and corporate institutions globally.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="programs">
+        <h2>Programs</h2>
+        <ul>
+            <li><strong>English for Children (TK - SD):</strong> Fun learning with songs, storytelling, and creative games to build vocabulary and pronunciation.</li>
+            <li><strong>English for Teenagers (SMP - SMA):</strong> Focused on grammar mastery, speaking confidence, and academic writing preparation.</li>
+            <li><strong>English for General (University / Public):</strong> Interactive courses for daily communication and career development.</li>
+            <li><strong>English for Specific Purposes:</strong> Specialized training for TOEFL, TOEIC, IELTS, Business English, English for Nursing, and NCLEX preparation.</li>
+        </ul>
+    </section>
+
+    <section id="curriculum">
+        <h2>Curriculum Overview</h2>
+        <ul>
+            <li><strong>Children (6–12 years):</strong> Phonics, Vocabulary Building, Story-based Learning, and Interactive Speaking.</li>
+            <li><strong>Teenagers (13–18 years):</strong> Grammar Mastery, Academic Writing, Public Speaking, and Debate Skills.</li>
+            <li><strong>Adults & Professionals:</strong> Business English, Presentation Skills, TOEFL/IELTS Preparation, and Cross-Cultural Communication.</li>
+            <li><strong>Healthcare & Technical Fields:</strong> English for Nursing, NCLEX, English for Medical Reports, and EPT (English Proficiency Test) readiness.</li>
+        </ul>
+    </section>
+
+    <section id="accreditation">
+        <h2>Accreditation & Publications</h2>
+        <p>LLC has received multiple local and international accreditations, ensuring that our educational quality meets global standards of excellence. Our institution has been recognized for its curriculum innovation and contribution to language education development.</p>
+        <ul>
+            <li>🏅 International English Teaching Accreditation (TEFL/TESOL Certified)</li>
+            <li>📜 Ministry of Education Certification (Indonesia)</li>
+            <li>🌍 Member of Global Language Educators Network</li>
+        </ul>
+
+        <h3>Published Books:</h3>
+        <ul>
+            <li>📘 <em>English for Nursing</em> – Practical guide for healthcare communication.</li>
+            <li>📗 <em>English for Children</em> – Creative learning for young learners.</li>
+            <li>📙 <em>TOEFL & TOEIC Preparation Series</em> – Comprehensive exam readiness material.</li>
+            <li>📒 <em>NCLEX EPT English Mastery</em> – For nursing certification candidates.</li>
+        </ul>
+    </section>
+
+    <section id="founder">
+        <h2>Founder</h2>
+        <div class="founder">
+            <img src="founder.jpg" alt="Moch. Idi Amin Photo">
+            <div class="founder-info">
+                <h3>MOCH. IDI AMIN, S.S., M.Pd., Dipl.TEFL.</h3>
+                <p>Founder and Director of LLC</p>
+                <p>Mr. Moch. Idi Amin is a renowned English educator and linguist with over 25 years of teaching experience. He has worked on international English education projects, authored multiple language textbooks, and mentored thousands of students in Indonesia and abroad.</p>
+                <p>His philosophy emphasizes that language is not just a skill but a bridge to opportunity and understanding. Through LLC, he aims to cultivate confident communicators and global citizens.</p>
+                <a href="https://www.linkedin.com/in/moch-idi-amin?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Visit LinkedIn Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-box">
+            <p>📞 Phone / WhatsApp: <span class="phone">0896-1047-0069</span></p>
+            <p>📧 Email: lpbillc@llc.co.id</p>
+            <p>📍 Address: Jakarta, Indonesia</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Language Learning Center (LLC). All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
